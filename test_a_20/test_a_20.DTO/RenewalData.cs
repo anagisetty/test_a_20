@@ -1,10 +1,11 @@
 ﻿using System;
 
-namespace test_a_20
+namespace Test_A_20
 {
     public class RenewalData
     {
-        public DateTime ReceiveRenewalDate { get; set; }
-        public DateTime CompleteRenewalDate { get; set; }
+        public DateTime RenewalDate { get; set; }
+        public DateTime Deadline { get; set; }
+        public bool IsRenewed { get; set; }
     }
 }

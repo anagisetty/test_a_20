@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.API\\test_a_20.API.csproj": {}
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.API\\test_a_20.API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.API\\test_a_20.API.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.API\\test_a_20.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.API\\test_a_20.API.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.API\\test_a_20.API.csproj",
         "projectName": "test_a_20.API",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.API\\test_a_20.API.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.API\\test_a_20.API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.API\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
               },
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj",
         "projectName": "test_a_20.DataAccess",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +107,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj",
         "projectName": "test_a_20.DTO",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -197,14 +197,14 @@
         }
       }
     },
-    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj": {
+    "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
+        "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
         "projectName": "test_a_20.Service",
-        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
+        "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\obj\\",
+        "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,11 +221,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj"
               },
-              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
-                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
+              "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
+                "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304215215\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
               }
             }
           }

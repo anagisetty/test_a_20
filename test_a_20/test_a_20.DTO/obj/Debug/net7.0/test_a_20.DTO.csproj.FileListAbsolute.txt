@@ -10,3 +10,15 @@ D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304213816\test_a_20\test_a_20.DTO\obj\Debug\net7.0\refint\test_a_20.DTO.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304213816\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.pdb
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304213816\test_a_20\test_a_20.DTO\obj\Debug\net7.0\ref\test_a_20.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\bin\Debug\net7.0\test_a_20.DTO.deps.json
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\bin\Debug\net7.0\test_a_20.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\bin\Debug\net7.0\test_a_20.DTO.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.csproj.AssemblyReference.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.AssemblyInfoInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.AssemblyInfo.cs
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.csproj.CoreCompileInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\refint\test_a_20.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\test_a_20.DTO.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.DTO\obj\Debug\net7.0\ref\test_a_20.DTO.dll

@@ -1,48 +1,46 @@
 ﻿using System;
 using System.Linq;
-using System.Collections.Generic;
 using System.Web.Http;
 
-namespace test_a_20
+namespace Test_A_20
 {
     public class RenewalDataController : ApiController
     {
-        private RenewalDataRepository _renewalDataRepository;
+        private RenewalDataService _renewalDataService;
 
-        public RenewalDataController()
+        public RenewalDataController(RenewalDataService renewalDataService)
         {
-            _renewalDataRepository = new RenewalDataRepository();
+            _renewalDataService = renewalDataService;
+        }
+
+        [HttpGet]
+        public RenewalData GetRenewalDataById(int id)
+        {
+            return _renewalDataService.GetRenewalDataById(id);
         }
 
         [HttpPost]
         public void CreateRenewalData(RenewalData renewalData)
         {
-            if (renewalData.ReceiveRenewalDate < new DateTime(2020, 1, 1))
-            {
-                _renewalDataRepository.CreateRenewalData(renewalData);
-            }
-            else
-            {
-                throw new Exception("Renewal Data must be received before 1st Jan 2020 to ensure timely completion of the renewal process");
-            }
-        }
-
-        [HttpGet]
-        public List<RenewalData> GetRenewalData()
-        {
-            return _renewalDataRepository.GetRenewalData();
+            _renewalDataService.CreateRenewalData(renewalData);
         }
 
         [HttpPut]
         public void UpdateRenewalData(RenewalData renewalData)
         {
-            _renewalDataRepository.UpdateRenewalData(renewalData);
+            _renewalDataService.UpdateRenewalData(renewalData);
         }
 
         [HttpDelete]
-        public void DeleteRenewalData(RenewalData renewalData)
+        public void DeleteRenewalData(int id)
         {
-            _renewalDataRepository.DeleteRenewalData(renewalData);
+            _renewalDataService.DeleteRenewalData(id);
+        }
+
+        [HttpGet]
+        public List<RenewalData> GetAllRenewalData()
+        {
+            return _renewalDataService.GetAllRenewalData();
         }
     }
 }
