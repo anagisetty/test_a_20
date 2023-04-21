@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "test_a_20.DataAccess/1.0.0": {
+        "dependencies": {
+          "test_a_20.DTO": "1.0.0"
+        },
+        "runtime": {
+          "test_a_20.DataAccess.dll": {}
+        }
+      },
+      "test_a_20.DTO/1.0.0": {
+        "runtime": {
+          "test_a_20.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test_a_20.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "test_a_20.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "test_a_20.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "test_a_20.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/test_a_20.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/test_a_20.DataAccess.dll": {}
+        }
+      },
+      "test_a_20.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/test_a_20.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/test_a_20.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test_a_20.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../test_a_20.DataAccess/test_a_20.DataAccess.csproj",
+      "msbuildProject": "../test_a_20.DataAccess/test_a_20.DataAccess.csproj"
+    },
+    "test_a_20.DTO/1.0.0": {
+      "type": "project",
+      "path": "../test_a_20.DTO/test_a_20.DTO.csproj",
+      "msbuildProject": "../test_a_20.DTO/test_a_20.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "test_a_20.DTO >= 1.0.0",
+      "test_a_20.DataAccess >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
+      "projectName": "test_a_20.Service",
+      "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\test_a_20.Service.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj": {
+              "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DataAccess\\test_a_20.DataAccess.csproj"
+            },
+            "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj": {
+              "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\66\\202304213816\\test_a_20\\test_a_20.DTO\\test_a_20.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
