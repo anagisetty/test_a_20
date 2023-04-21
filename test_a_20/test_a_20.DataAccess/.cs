@@ -1,67 +1,56 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace test_a_20
+﻿namespace Test_A_20
 {
-    public class RenewalDataRepository 
+    public interface IRenewalDataRepository
     {
-        private List<RenewalData> _renewalData;
+        IEnumerable<RenewalData> GetRenewalDataBefore1stJan2020();
+        RenewalData GetRenewalDataById(int id);
+        void InsertRenewalData(RenewalData renewalData);
+        void UpdateRenewalData(RenewalData renewalData);
+        void DeleteRenewalData(int id);
+    }
 
-        public RenewalDataRepository()
+    public class RenewalData
+    {
+        public DateTime RenewalDate { get; set; }
+        public bool IsCompleted { get; set; }
+    }
+
+    public class RenewalDataRepository : IRenewalDataRepository
+    {
+        private readonly Test_A_20Context _context;
+
+        public RenewalDataRepository(Test_A_20Context context)
         {
-            _renewalData = new List<RenewalData>();
+            _context = context;
         }
 
-        // CRUD Operations
-
-        // Create
-        public void CreateRenewalData(RenewalData renewalData)
+        public IEnumerable<RenewalData> GetRenewalDataBefore1stJan2020()
         {
-            if (renewalData.ReceiveRenewalDate < new DateTime(2020, 1, 1))
-            {
-                _renewalData.Add(renewalData);
-            }
-            else
-            {
-                throw new Exception("Renewal Data must be received before 1st Jan 2020 to ensure timely completion of the renewal process");
-            }
+            return _context.RenewalData.Where(x => x.RenewalDate < new DateTime(2020, 01, 01)).ToList();
         }
 
-        // Read
-        public List<RenewalData> GetRenewalData()
+        public RenewalData GetRenewalDataById(int id)
         {
-            return _renewalData;
+            return _context.RenewalData.Find(id);
         }
 
-        // Update
+        public void InsertRenewalData(RenewalData renewalData)
+        {
+            _context.RenewalData.Add(renewalData);
+            _context.SaveChanges();
+        }
+
         public void UpdateRenewalData(RenewalData renewalData)
         {
-            var index = _renewalData.FindIndex(x => x.ReceiveRenewalDate == renewalData.ReceiveRenewalDate);
-
-            if (index >= 0)
-            {
-                _renewalData[index] = renewalData;
-            }
-            else
-            {
-                throw new Exception("Renewal Data not found");
-            }
+            _context.Entry(renewalData).State = EntityState.Modified;
+            _context.SaveChanges();
         }
 
-        // Delete
-        public void DeleteRenewalData(RenewalData renewalData)
+        public void DeleteRenewalData(int id)
         {
-            var index = _renewalData.FindIndex(x => x.ReceiveRenewalDate == renewalData.ReceiveRenewalDate);
-
-            if (index >= 0)
-            {
-                _renewalData.RemoveAt(index);
-            }
-            else
-            {
-                throw new Exception("Renewal Data not found");
-            }
+            RenewalData renewalData = _context.RenewalData.Find(id);
+            _context.RenewalData.Remove(renewalData);
+            _context.SaveChanges();
         }
     }
 }

@@ -18,3 +18,6 @@ D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.Service\obj\Debug\net7.0\test_a_20.Service.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.Service\obj\Debug\net7.0\refint\test_a_20.Service.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304215215\test_a_20\test_a_20.Service\obj\Debug\net7.0\test_a_20.Service.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304210024\test_a_20\test_a_20.Service\obj\Debug\net7.0\test_a_20.Service.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304210024\test_a_20\test_a_20.Service\obj\Debug\net7.0\refint\test_a_20.Service.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\66\202304210024\test_a_20\test_a_20.Service\obj\Debug\net7.0\test_a_20.Service.pdb

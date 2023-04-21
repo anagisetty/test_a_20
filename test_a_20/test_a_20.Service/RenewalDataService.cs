@@ -1,46 +1,56 @@
-﻿using System;
-using System.Linq;
-
-namespace Test_A_20
+﻿namespace Test_A_20
 {
-    public class RenewalDataService
+    public interface IRenewalDataRepository
     {
-        private RenewalDataRepository _renewalDataRepository;
+        IEnumerable<RenewalData> GetRenewalDataBefore1stJan2020();
+        RenewalData GetRenewalDataById(int id);
+        void InsertRenewalData(RenewalData renewalData);
+        void UpdateRenewalData(RenewalData renewalData);
+        void DeleteRenewalData(int id);
+    }
 
-        public RenewalDataService(RenewalDataRepository renewalDataRepository)
+    public class RenewalData
+    {
+        public DateTime RenewalDate { get; set; }
+        public bool IsCompleted { get; set; }
+    }
+
+    public class RenewalDataRepository : IRenewalDataRepository
+    {
+        private readonly Test_A_20Context _context;
+
+        public RenewalDataRepository(Test_A_20Context context)
         {
-            _renewalDataRepository = renewalDataRepository;
+            _context = context;
+        }
+
+        public IEnumerable<RenewalData> GetRenewalDataBefore1stJan2020()
+        {
+            return _context.RenewalData.Where(x => x.RenewalDate < new DateTime(2020, 01, 01)).ToList();
         }
 
         public RenewalData GetRenewalDataById(int id)
         {
-            return _renewalDataRepository.GetById(id);
+            return _context.RenewalData.Find(id);
         }
 
-        public void CreateRenewalData(RenewalData renewalData)
+        public void InsertRenewalData(RenewalData renewalData)
         {
-            if (renewalData.Deadline > DateTime.Now.AddDays(-1))
-            {
-                _renewalDataRepository.Create(renewalData);
-            }
+            _context.RenewalData.Add(renewalData);
+            _context.SaveChanges();
         }
 
         public void UpdateRenewalData(RenewalData renewalData)
         {
-            if (renewalData.Deadline > DateTime.Now.AddDays(-1))
-            {
-                _renewalDataRepository.Update(renewalData);
-            }
+            _context.Entry(renewalData).State = EntityState.Modified;
+            _context.SaveChanges();
         }
 
         public void DeleteRenewalData(int id)
         {
-            _renewalDataRepository.Delete(id);
-        }
-
-        public List<RenewalData> GetAllRenewalData()
-        {
-            return _renewalDataRepository.GetAll().Where(x => x.Deadline > DateTime.Now.AddDays(-1)).ToList();
+            RenewalData renewalData = _context.RenewalData.Find(id);
+            _context.RenewalData.Remove(renewalData);
+            _context.SaveChanges();
         }
     }
 }
